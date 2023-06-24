@@ -1,0 +1,78 @@
+@import url(headerFooter.css);
+@import url(fontSetting.css);
+
+.divLabel{
+    margin-left: 13%;
+    padding-top: 15px;
+}
+
+#pMargin{
+    margin-left: 40%;
+}
+
+.borderLine{
+    border-bottom: solid rgb(159,205,241) 1px;
+}
+
+option{
+    border: none;
+    width: 50px;
+
+}
+
+.containerMainPersonalInfo {
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.containerPersonalInfo {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(242,246,249);
+}
+
+input{
+    line-height: 25px;
+    border-radius: 5px;
+    border-color: rgb(159,205,241);
+}
+
+
+input[type='number']{
+    width: 560px;
+    line-height: 25px;
+    border-radius: 5px;
+    border-color: rgb(159,205,241);
+}
+
+.inputFocus:focus{
+    outline: none;
+    box-shadow: 0px 0px 3px 3px rgb(159,205,241);
+}
+
+#submitFont{
+    margin-top: 0px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    width: 570px;
+    height: 50px;
+    background-color: rgb(38,140,212);
+    color: white;
+    box-shadow: 0px 5px 15px 1px rgb(159,205,241);
+}
+
+
+
+
+
+

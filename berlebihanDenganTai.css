@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap');
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+header{
+    z-index: 1;
+    /* border: solid green; */
+    margin-top: 0px;
+    height: 110px;
+    width: 100%;
+    background-color: rgb(35,83,144);
+}
+
+a {
+    text-decoration: none;
+}
+
+.line {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    border-top: solid 2px rgb(222, 222, 222);
+}
+
+#lineCourses{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 360px;
+    border-top: solid 2px rgb(222, 222, 222);
+}
+
+#EzChineseP {
+    padding-top: 0px;
+    float: left;
+    /* border: solid red; */
+    margin: 0px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+}
+
+#EzChineseImgHref {
+    margin: -40px;
+    padding-left: 30px;
+    padding-right: 10px; 
+}
+
+#navBar {
+    /* border: solid red; */
+    text-align: right;
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+}
+
+.navbarPaddingLeft {
+    padding-left: 20px;
+    color: white;
+}
+
+.navbarPaddingRightLeft{
+    padding-right: 80px;
+    padding-left: 20px;
+    color: white;
+}
+
+    /* ===== Body ===== */
+.headerPadding{
+    padding-top: 0px;
+}
+
+#background{
+    width: 100%;
+    height: 510px;
+    filter: brightness(50%);
+    z-index: 4;
+}
+
+#belajarSusunan {
+    font-size: 40px;
+    margin-left: 5%;
+    position: absolute;
+    z-index: 5;
+    margin-top: 180px;
+    color: white;
+}
+
+.fontBlack {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.fontGrey {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: rgb(60, 60, 60);
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.Struktur{
+    width: 500px;
+    height: 50px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    border: solid grey;
+}
+
+#mengekspresikan{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+#dalamBahasa{
+    margin-top: 0px;
+}
+
+    /* ===== Footer ===== */
+
+footer {
+    clear: both;
+    margin-bottom: -10px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(35,83,144);
+}
+.footerP{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+
+address {
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: white;
+    padding-left: 80px;
+}

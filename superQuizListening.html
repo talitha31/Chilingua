@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>super Quiz</title>
+    <link rel="stylesheet" href="superQuizListening.css">
+</head>
+<body>
+    
+    <header>
+        <p id="EzChineseP">
+            <a id="EzChineseImgHref" href="index.html">
+                <object align="center" width="140px" height="110px" data="Pictures/Billy In Hat.png"></object>
+            </a>    Ez Chinese
+        </p>
+        
+        <p id="navBar">
+            <a class="navbarPaddingLeft" href="index.html">Home        </a>
+            <a class="navbarPaddingLeft" href="courses.html">Courses       </a>
+            <a class="navbarPaddingLeft" href="superQuiz.html">Super Quiz       </a>
+            <a class="navbarPaddingLeft" href="tentang.html">About         </a>
+            <a class="navbarPaddingRightLeft" href="registration.html">Login</a>
+        </p>
+    </header>
+
+<!-- Body -->
+
+    <!-- <div class="landing">
+        <p id="landingP" class="fontBlack">Selamat Datang di Super Quiz</p>
+        <p id="landingP2" class="fontGrey">Latihan Soal Berdasarkan Ujian Asli</p>
+        <button class="startButton fontBlack" onclick="startFunc()">Start</button>
+        <img id="background" src="Pictures/Tata Bahasa Background.jpg" alt="">
+    </div> -->
+    <div class="sideBar">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn fontBlack">HSK 1</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a class="fontGrey" href="#home">HSK 1</a>
+                    <a class="fontGrey" href="#about">HSK 2</a>
+                    <a class="fontGrey" href="#contact">HSK 3</a>
+                    <a class="fontGrey" href="#contact">HSK 4</a>
+                    <a class="fontGrey" href="#contact">HSK 5</a>
+                    <a class="fontGrey" href="#contact">HSK 6</a>
+                </div>
+            </div>
+        <button class="itemList1 " id="Reading"><a href="superQuiz.html" id="itemListSpan" class="fontBlack">Reading</a></button>
+        <button class="itemList disabled" id="Listening"><span id="itemListSpan" class="fontBlack">Listening</span></button>
+    </div>
+
+    <!-- Show Questions -->
+    <!-- <button onclick="popup()" >cek</button> -->
+    <div class="popup hilangDiv">
+        <button onclick="close1()" class="cross" >asd</button>
+        <form action="">
+            <input type="text">
+        </form>
+    </div>
+    
+    
+
+
+    
+    <span class="p hilangDiv" id="pi">1</span><span></span>
+    
+
+    
+
+    <div class="container hilangDiv" id="containerCopy">
+        
+        <p class="containerP hilangDiv fontBlack">HSK 1 Listening   </p>
+
+        <div class="fontBlack title">
+            <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span></span></p>
+        </div>
+
+        <div id="dragDivId" class="dragDiv">
+        </div>
+        
+        <button onmousedown="onMouseButton()" onmouseup="onMouseUp()" id="prevHover" class="prevButton hilangDiv fontBlack opacity">Pertanyaan Sebelumnya</button>
+        <button onmousedown="onMouseButton2()" onmouseup="onMouseUp2()" id="nextHover" class="nextButton hilangDiv fontBlack">Pertanyaan Selanjutnya</button>
+    </div>
+    
+    <div class="resultContainer hilangDiv">
+        <button class="bubble" onclick="resultClose()"> <span class="x fontBlack">X</span></button>
+        <div id="container1Id" class="container1">
+            
+            <p class="containerP fontBlack">HSK 1 Listening   </p>
+
+            <div class="fontBlack title">
+                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>1/5</span></p>
+            </div>
+            <!-- <p class="que1 spanLeft fontGrey showQueFont" id="que11"></p> -->
+            <p class="que1 spanLeft fontGrey showQueFont"></p>
+
+            <div id="dragDivId1" class="dragDiv1">
+            </div>
+            
+            <div class="option1"><span class="fontBlack">✔</span></div>
+            <div class="option2" id="padding"><span class="fontBlack">✘</span></div>
+            
+            <div class="explanation "><p class="explanationP fontGrey"></p></div>
+
+        </div>
+
+
+        <div class="container2">
+            
+            <p class="containerP fontBlack">HSK 1 Listening   </p>
+
+            <div class="fontBlack title">
+                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>2/5</span></p>
+            </div>
+
+            <p class="que1 spanLeft fontGrey showQueFont"></p>
+
+            <div id="dragDivId2" class="dragDiv2">
+            </div>
+            
+            <div class="option1"><span class="fontBlack">✔</span></div>
+            <div class="option2" id="padding"><span class="fontBlack">✘</span></div>
+            
+            <div class="explanation"><p class="explanationP fontGrey"></p></div>
+
+        </div>
+        <div class="container3">
+            
+            <p class="containerP fontBlack">HSK 1 Listening   </p>
+
+            <div class="fontBlack title">
+                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>3/5</span></p>
+            </div>
+
+            <p class="que1 spanLeft fontGrey showQueFont"></p>
+
+            <div id="dragDivId3" class="dragDiv3">
+            </div>
+            
+            <div class="option1"><span class="fontBlack">✔</span></div>
+            <div class="option2" id="padding"><span class="fontBlack">✘</span></div>
+            
+            <div class="explanation"><p class="explanationP fontGrey"></p></div>
+
+        </div>
+        <div class="container4">
+            
+            <p class="containerP fontBlack">HSK 1 Listening   </p>
+
+            <div class="fontBlack title">
+                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>4/5</span></p>
+            </div>
+
+            <p class="que1 spanLeft fontGrey showQueFont"></p>
+
+            <div id="dragDivId4" class="dragDiv4">
+            </div>
+            
+            <div class="option1"><span class="fontBlack">✔</span></div>
+            <div class="option2" id="padding"><span class="fontBlack">✘</span></div>
+            
+            <div class="explanation"><p class="explanationP fontGrey"></p></div>
+
+        </div>
+
+        <div class="container5">
+            
+            <p class="containerP fontBlack">HSK 1 Listening   </p>
+
+            <div class="fontBlack title">
+                <p class="pRight">Listening - Benar atau Salah  <span class="right"><span class="numbS"></span>5/5</span></p>
+            </div>
+
+            <p class="que1 spanLeft fontGrey showQueFont"></p>
+
+            <div id="dragDivId5" class="dragDiv5">
+            </div>
+            
+            <div class="option1"><span class="fontBlack">✔</span></div>
+            <div class="option2" id="padding"><span class="fontBlack">✘</span></div>
+            
+            <div class="explanation"><p class="explanationP fontGrey"></p></div>
+
+        </div>
+    </div>
+
+    
+    
+
+<!-- Footer -->
+
+<div class="padding1 hilangDiv"></div>
+<footer>
+    <address>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-copyright-all-rights-reserved-24.png" width="20px" height="20px" alt=""> </object> 2022 Ez Chinese</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-phone-50 (1).png" width="20px" height="20px" alt=""></object> Phone : 08123456789</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-mail-50.png"      width="20px" height="20px" alt=""></object> E-mail : ezchinese@gmail.com</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-instagram-24.png" width="20px" height="20px" alt=""></object> Instagram : @ezchinese</p>
+        <p class="footerP"> <object class="footerIcon" align = "center" data ="Icons/icons8-internet-30.png"  width="20px" height="20px" alt=""></object> EzChinese.com Jepara Tech Ltd. </p>
+    </address>
+    </footer>
+
+    <script src="JavaScript/questionsListening.js"></script>
+    <script src="JavaScript/scriptListening.js"></script>
+
+    
+
+</body>
+</html>
